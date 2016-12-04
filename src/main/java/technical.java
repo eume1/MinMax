@@ -19,7 +19,7 @@ public class technical {
         obj.add(4); obj.add(5); obj.add(3); obj.add("blah");
         obj.add(5);
 
-        // A reversed list stimulates a LIFO stream
+        // A reversed list simulates a LIFO stream
         Collections.reverse(obj);
         generateMeanMax(windowSize, obj);
     }

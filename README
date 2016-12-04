@@ -1,0 +1,19 @@
+* Any assumptions you made
+- Duplicate numbers are eliminated within a window. i.e. A window only has distinct elements.
+- If the amount of data in the stream is less that the size of the window (after de-duplication and excluding nulls), 1s are used to fill in the gap.
+
+
+* The space and time complexity of your algorithm and the trade-offs you made between the two
+- The list in the main method doesn't count as it is assumed to be coming from an external source(stream). A LinkedHashSet has O(1) time complexity. It was the only container used.
+
+
+* Improvements you would make given more time to work on the problem
+- Try to find an approximation algorithm(e.x. a HyperLogLog equivalent??) that estimates the mean, max... etc
+
+
+* Please discuss any change in your approach if instead of 3 and 20 elements, we want to calculate over the last 10,000 or 1 Million elements
+- This approach should suffice regardless of window size. The number of Elements in the window is configurable.
+
+
+* Please discuss how you would extend your code to handle finding the median over these window sizes in addition to the mean and max
+- I'd use a TreeSet and calculate the Median way in a similar way to the Max

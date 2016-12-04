@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for default#context-relevant$sources_javadoc_2.12;1.0 [compile]
 [debug] == resolving dependencies default#context-relevant$sources_javadoc_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.12.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@481bf7c5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32330ff4
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.0
 [debug] 	found org.scala-lang#scala-library;2.12.0 in sbt-chain
 [debug] 	[2.12.0] org.scala-lang#scala-library;2.12.0
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies default#context-relevant$sources_javadoc_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
 [debug] == resolving dependencies default#context-relevant$sources_javadoc_2.12;1.0->com.google.guava#guava;20.0 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;20.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10c9cdc0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@385418b
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;20.0
 [debug] 	found com.google.guava#guava;20.0 in sbt-chain
 [debug] == resolving dependencies default#context-relevant$sources_javadoc_2.12;1.0->com.google.guava#guava;20.0 [compile->runtime]
@@ -214,27 +214,9 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.0!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.0!scala-library.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.0!scala-library.jar(src)
-[debug] 		tried C:\Users\Admin\.ivy2\local\com.google.guava\guava\20.0\srcs\guava-sources.jar
-[debug] 		tried C:\Users\Admin\.ivy2\local\com.google.guava\guava\20.0\jars\guava.jar
-[debug] 		tried C:\Users\Admin\.ivy2\local\com.google.guava\guava\20.0\docs\guava-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;20.0!guava.jar(src) (13166ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;20.0!guava.jar (15621ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-javadoc.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;20.0!guava.jar(doc) (36040ms)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;20.0!guava.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;20.0!guava.jar
+[debug] 	[NOT REQUIRED] com.google.guava#guava;20.0!guava.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.0!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.0!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.0!scala-reflect.jar(doc)
@@ -243,7 +225,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar(src)
-[debug] :: resolution report :: resolve 133ms :: artifacts dl 64863ms
+[debug] :: resolution report :: resolve 171ms :: artifacts dl 31ms
 [debug] 	report for default#context-relevant$sources_javadoc_2.12;1.0 compile produced in C:\Users\Admin\IdeaProjects\Context Relevant\target\resolution-cache\reports\default-context-relevant$sources_javadoc_2.12-compile.xml
 [debug] 	report for default#context-relevant$sources_javadoc_2.12;1.0 runtime produced in C:\Users\Admin\IdeaProjects\Context Relevant\target\resolution-cache\reports\default-context-relevant$sources_javadoc_2.12-runtime.xml
 [debug] 	report for default#context-relevant$sources_javadoc_2.12;1.0 test produced in C:\Users\Admin\IdeaProjects\Context Relevant\target\resolution-cache\reports\default-context-relevant$sources_javadoc_2.12-test.xml
@@ -257,4 +239,4 @@
 [debug] 	report for default#context-relevant$sources_javadoc_2.12;1.0 docs produced in C:\Users\Admin\IdeaProjects\Context Relevant\target\resolution-cache\reports\default-context-relevant$sources_javadoc_2.12-docs.xml
 [debug] 	report for default#context-relevant$sources_javadoc_2.12;1.0 pom produced in C:\Users\Admin\IdeaProjects\Context Relevant\target\resolution-cache\reports\default-context-relevant$sources_javadoc_2.12-pom.xml
 [debug] 	report for default#context-relevant$sources_javadoc_2.12;1.0 scala-tool produced in C:\Users\Admin\IdeaProjects\Context Relevant\target\resolution-cache\reports\default-context-relevant$sources_javadoc_2.12-scala-tool.xml
-[debug] 	resolve done (133ms resolve - 64863ms download)
+[debug] 	resolve done (171ms resolve - 31ms download)

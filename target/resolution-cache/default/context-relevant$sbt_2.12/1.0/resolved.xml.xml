@@ -4,7 +4,7 @@
 		module="context-relevant$sbt_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161203172642"
+		publication="20161203201150"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

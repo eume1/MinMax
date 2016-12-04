@@ -4,7 +4,7 @@
 		module="context-relevant$sources_javadoc_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161203172644"
+		publication="20161203201154"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
